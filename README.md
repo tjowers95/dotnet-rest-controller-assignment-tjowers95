@@ -18,30 +18,30 @@ This assignment is intentionally lacking in it's description of required service
 You will need to create/implement the following endpoints and their required services
 
 - [ ] `GET quiz`
-    - Returns the collection of `Quiz` elements
+    - Returns all `Quiz` elements
 
 - [ ] `POST quiz`
 
-    Creates a quiz and adds to collection
+    Creates a quiz
     - Returns the `Quiz` that it created
 
-- [ ] `DELETE quiz/{quizName}`
+- [ ] `DELETE quiz/{quizId}`
 
-    Deletes the specified quiz from collection
+    Deletes the specified quiz
     - Returns the deleted `Quiz`
 
-- [ ] `PATCH quiz/{quizName}/rename/{newName}`
+- [ ] `PATCH quiz/{quizId}/rename/{newName}`
 
-    Rename the specified quiz using the new name given
+    Rename the specified quiz
     - Returns the renamed `Quiz`
 
-- [ ] `PATCH quiz/{quizName}/add`
+- [ ] `PATCH quiz/{quizId}/add`
 
     Adds a question to the specified quiz
     - Receives a `Question`
-    - Returns the modified `Quiz`
+    - Returns the modified `Quiz` with the question added to the quiz's `Question` collection.
 
-- [ ] `DELETE quiz/{quizName}/delete/{questionId}`
+- [ ] `DELETE quiz/{quizId}/delete/{questionId}`
 
     Deletes the specified question from the specified quiz
     - Returns the deleted `Question`
