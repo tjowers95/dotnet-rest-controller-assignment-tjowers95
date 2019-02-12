@@ -39,7 +39,7 @@ You will need to create/implement the following endpoints and their required ser
 
     Adds a question to the specified quiz
     - Receives a `Question`
-    - Returns the modified `Quiz` with the question added to the quiz's `Question` collection.
+    - Returns the modified `Quiz`
 
 - [ ] `DELETE quiz/{quizId}/delete/{questionId}`
 
