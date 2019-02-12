@@ -7,7 +7,7 @@ In this assignment students are tasked with creating a small RESTful API that si
 ### Summary of the API
 Each entity should be identified by a unique Id column which should be configured as the primary key for that entity.
 
-Each `Quiz` should contain a `title` field. Each `Quiz` contains a collection of `Question` entities. `Questions` entities also contain a unique `text` field representing the text of the question. Each question contains a collection of `Answer` elements which are uniquely identified by their own `text` field representing the text of the answer. The `Answer` entity will also contain a field signifying if it is the correct answer for the question it belongs to.
+Each `Quiz` should contain a `title` field. Each `Quiz` contains a collection of `Question` entities. `Questions` entities also contain a unique `text` field representing the text of the question. Each question contains a collection of `Answer` elements which contain a unique `text` field representing the text of the answer. The `Answer` entity will also contain a field signifying if it is the correct answer for the question it belongs to.
 
 ---
 
