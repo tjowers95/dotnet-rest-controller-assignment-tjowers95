@@ -18,7 +18,10 @@ This assignment is intentionally lacking in it's description of required service
 You will need to create/implement the following endpoints and their required services
 
 - [ ] `GET quiz`
-    - Returns all `Quiz` elements
+    - Returns all `Quiz` entities
+    
+- [ ] `GET quiz/{quizId}`
+    - Returns a specified `Quiz`
 
 - [ ] `POST quiz`
 
